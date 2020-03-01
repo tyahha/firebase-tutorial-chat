@@ -15,6 +15,8 @@
  */
 "use strict";
 
+firebase.performance();
+
 // Signs-in Friendly Chat.
 function signIn() {
   var provider = new firebase.auth.GoogleAuthProvider();
